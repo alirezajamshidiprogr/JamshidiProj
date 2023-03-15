@@ -1,0 +1,11 @@
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\bin\Debug\JamshidiProj.exe.config
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\bin\Debug\JamshidiProj.exe
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\bin\Debug\JamshidiProj.pdb
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.Properties.Resources.resources
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.csproj.GenerateResource.cache
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.csproj.CoreCompileInputs.cache
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.exe
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.pdb
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.frmMain.resources
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.csprojAssemblyReference.cache
+C:\Users\Alireza\source\repos\JamshidiProj\JamshidiProj\obj\Debug\JamshidiProj.frmSettings.resources

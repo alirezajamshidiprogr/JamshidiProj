@@ -493,9 +493,9 @@
             this.label22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label22.Location = new System.Drawing.Point(308, 87);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(89, 13);
+            this.label22.Size = new System.Drawing.Size(86, 13);
             this.label22.TabIndex = 3;
-            this.label22.Text = "آدرس فایل اکسل:";
+            this.label22.Text = "نام فایل پشتیبان:";
             this.label22.Click += new System.EventHandler(this.label6_Click);
             // 
             // frmSettings

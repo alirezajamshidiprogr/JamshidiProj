@@ -14,6 +14,7 @@ namespace JamshidiProj
 {
     public partial class frmSettings : Form
     {
+
         public frmSettings()
         {
             InitializeComponent();
@@ -58,16 +59,18 @@ namespace JamshidiProj
                 writer.WriteElementString("txtTitle4", txtTitle4.Text.Trim());
                 writer.WriteElementString("txtIP", txtIP.Text.Trim());
                 writer.WriteElementString("txtPort", txtPort.Text.Trim());
-                writer.WriteElementString("cmbScheduleRaining", cmbScheduleRaining.SelectedIndex.ToString());
-                writer.WriteElementString("cmbConnectionType", cmbConnectionType.SelectedIndex.ToString());
-                writer.WriteElementString("cmbPortCom", cmbPortCom.SelectedIndex.ToString());
-                writer.WriteElementString("cmbBitRate", cmbBitRate.SelectedIndex.ToString());
+                writer.WriteElementString("cmbScheduleRaining", cmbScheduleRaining.Text);
+                writer.WriteElementString("cmbConnectionType", cmbConnectionType.Text);
+                writer.WriteElementString("cmbPortCom", cmbPortCom.Text);
+                writer.WriteElementString("cmbBitRate", cmbBitRate.Text);
                 writer.WriteEndElement();
                 writer.Flush();
             }
 
+
             MessageBox.Show(" تغییرات با موفقیت اعمال گردید. ! ", "اطلاع", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1, MessageBoxOptions.RtlReading);
             this.Close();
+
         }
 
         private void frmSettings_Load(object sender, EventArgs e)
@@ -90,10 +93,10 @@ namespace JamshidiProj
             txtTitle4.Text = xdoc.Descendants("txtTitle4").First().Value;
             txtIP.Text = xdoc.Descendants("txtIP").First().Value;
             txtPort.Text = xdoc.Descendants("txtPort").First().Value;
-            cmbScheduleRaining.SelectedIndex = Convert.ToInt32(xdoc.Descendants("cmbScheduleRaining").First().Value);
-            cmbConnectionType.SelectedIndex = Convert.ToInt32(xdoc.Descendants("cmbConnectionType").First().Value);
-            cmbPortCom.SelectedIndex = Convert.ToInt32(xdoc.Descendants("cmbPortCom").First().Value);
-            cmbBitRate.SelectedIndex = Convert.ToInt32(xdoc.Descendants("cmbBitRate").First().Value);
+            cmbScheduleRaining.Text = Convert.ToString(xdoc.Descendants("cmbScheduleRaining").First().Value);
+            cmbConnectionType.Text = Convert.ToString(xdoc.Descendants("cmbConnectionType").First().Value);
+            cmbPortCom.Text = Convert.ToString(xdoc.Descendants("cmbPortCom").First().Value);
+            cmbBitRate.Text = Convert.ToString(xdoc.Descendants("cmbBitRate").First().Value);
         }
 
         private void btnSelectExcel_Click(object sender, EventArgs e)
